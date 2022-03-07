@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8565DC2127D58E4F0058FED1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8565DC2027D58E4F0058FED1 /* main.swift */; };
 		85D61B0027D5889E0016CD1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D61AFF27D5889E0016CD1A /* AppDelegate.swift */; };
 		85D61B0227D5889E0016CD1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D61B0127D5889E0016CD1A /* ViewController.swift */; };
 		85D61B0427D5889F0016CD1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85D61B0327D5889F0016CD1A /* Assets.xcassets */; };
@@ -14,6 +15,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8565DC2027D58E4F0058FED1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		8565DC2227D590E00058FED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		85D61AFC27D5889E0016CD1A /* noti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = noti.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85D61AFF27D5889E0016CD1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85D61B0127D5889E0016CD1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,10 +55,12 @@
 		85D61AFE27D5889E0016CD1A /* noti */ = {
 			isa = PBXGroup;
 			children = (
+				8565DC2227D590E00058FED1 /* Info.plist */,
 				85D61AFF27D5889E0016CD1A /* AppDelegate.swift */,
 				85D61B0127D5889E0016CD1A /* ViewController.swift */,
 				85D61B0327D5889F0016CD1A /* Assets.xcassets */,
 				85D61B0527D5889F0016CD1A /* Main.storyboard */,
+				8565DC2027D58E4F0058FED1 /* main.swift */,
 				85D61B0827D5889F0016CD1A /* noti.entitlements */,
 			);
 			path = noti;
@@ -133,6 +138,7 @@
 			files = (
 				85D61B0227D5889E0016CD1A /* ViewController.swift in Sources */,
 				85D61B0027D5889E0016CD1A /* AppDelegate.swift in Sources */,
+				8565DC2127D58E4F0058FED1 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +281,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = noti/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -300,6 +307,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = noti/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
